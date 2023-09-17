@@ -21,9 +21,9 @@
 body {
   --text-color: var(--dark);
 
-  --bg-img-lg-light: url('./../imgs/bg-light-lg.png') no-repeat center center/cover;
-  --bg-img-md-light: url('./../imgs/bg-light-md.png') no-repeat center center/cover;
-  --bg-img-sm-light: url('./../imgs/bg-light-sm.png') no-repeat center center/cover;
+  --bg-img-lg-light: url('./../imgs/bg-light-lg.png') no-repeat center top/cover fixed;
+  --bg-img-md-light: url('./../imgs/bg-light-md.png') no-repeat center top/cover fixed;
+  --bg-img-sm-light: url('./../imgs/bg-light-sm.png') no-repeat center top/cover fixed;
 
   --border-color-switch-track: var(--dark-op-50);
   --bg-color-switch-track: var(--dark-op-5);
@@ -53,9 +53,9 @@ body {
 html.dark body {
   --text-color: var(--light);
 
-  --bg-img-lg-dark: url('./../imgs/bg-dark-lg.png') no-repeat center center/cover;
-  --bg-img-md-dark: url('./../imgs/bg-dark-md.png') no-repeat center center/cover;
-  --bg-img-sm-dark: url('./../imgs/bg-dark-sm.png') no-repeat center center/cover;
+  --bg-img-lg-dark: url('./../imgs/bg-dark-lg.png') no-repeat center top/cover fixed;
+  --bg-img-md-dark: url('./../imgs/bg-dark-md.png') no-repeat center top/cover fixed;
+  --bg-img-sm-dark: url('./../imgs/bg-dark-sm.png') no-repeat center top/cover fixed;
 
   --border-color-switch-track: var(--light-op-50);
   --bg-color-switch-track: var(--light-op-10);
